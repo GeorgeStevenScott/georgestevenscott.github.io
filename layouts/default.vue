@@ -52,4 +52,19 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+p {
+  color: #ff0000;
+  font-size: 1.25rem;
+}
 </style>
+
+<script>
+import MainMenu from '~/components/MainMenu.vue'
+
+export default {
+  components: {
+    MainMenu
+  }
+}
+</script>
