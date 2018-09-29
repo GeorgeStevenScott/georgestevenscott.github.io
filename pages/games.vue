@@ -7,6 +7,9 @@
       <h2 class="subtitle">
         These are all of my favourite games.
       </h2>
+      <p>
+        I like to play hide and seek tag with 7 friends that I play with. I play football with Jack because he is also good at football. He only passes to me because I am good and skilled.
+      </p>
       <main-menu/>
     </div>
   </section>
