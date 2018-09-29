@@ -18,6 +18,18 @@ import MainMenu from '~/components/MainMenu.vue'
 export default {
   components: {
     MainMenu
+  },
+  head() {
+    return {
+      titleTemplate: '%s | Home',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'The home page of my website.'
+        }
+      ]
+    }
   }
 }
 </script>
