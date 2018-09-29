@@ -1,6 +1,7 @@
 # georgestevenscott.github.io
 
-> My exceptional Nuxt.js project
+> This is the code for my personal website. It uses a framework for the code, but the design is all mine.
+> Use the following commands to build & serve my website.
 
 ## Build Setup
 
@@ -19,4 +20,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+For detailed explanation on how the code works, I used [Nuxt.js](https://nuxtjs.org), so all relevant information can be found there.
