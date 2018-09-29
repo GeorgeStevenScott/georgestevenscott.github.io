@@ -7,6 +7,12 @@
       <h2 class="subtitle">
         This page tells you all about me.
       </h2>
+      <p>
+        I love to play with my best mates. One is called Harvey, one is called Thomas and the other is called Adam.
+      </p>
+      <p>
+        I always play football as I am the best in my class at it. I like to be striker when I play football.
+      </p>
       <main-menu/>
     </div>
   </section>
