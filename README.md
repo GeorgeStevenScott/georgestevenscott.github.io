@@ -1,7 +1,8 @@
 # georgestevenscott.github.io
 
 > This is the code for my personal website. It uses a framework for the code, but the design is all mine.
-> Use the following commands to build & serve my website.
+
+Use the following commands to build & serve my website.
 
 ## Build Setup
 
