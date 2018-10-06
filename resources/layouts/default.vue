@@ -94,6 +94,11 @@ html {
   background-repeat: repeat;
   flex-direction: column;
 }
+
+p {
+  color: #ff0000;
+  font-size: 1.25rem;
+}
 </style>
 
 <script>
