@@ -1,6 +1,16 @@
 <template>
   <div>
+    <navbar/>
     <nuxt/>
+    <no-ssr>
+      <div>
+        <cookie-policy
+          button-link="cookie-and-privacy-policy"
+          button-link-text="Read More"
+          theme="dark"
+          variant="dark"/>
+      </div>
+    </no-ssr>
   </div>
 </template>
 
@@ -52,19 +62,15 @@ html {
   color: #fff;
   background-color: #35495e;
 }
-
-p {
-  color: #ff0000;
-  font-size: 1.25rem;
-}
 </style>
 
 <script>
-import MainMenu from '~/components/MainMenu.vue'
-
+import Navbar from "../components/Navbar.vue";
+import CookiePolicy from "../components/CookiePolicy.vue";
 export default {
   components: {
-    MainMenu
+    Navbar,
+    CookiePolicy
   }
 }
 </script>

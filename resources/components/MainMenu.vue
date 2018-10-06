@@ -6,15 +6,24 @@
       exact>Home</b-link>
     <b-link
       class="btn btn-secondary"
-      to="about">About</b-link>
+      to="blog">Blog</b-link>
     <b-link
       class="btn btn-secondary"
-      to="hobbies">Hobbies</b-link>
+      to="privacy-policy">Privacy Policy</b-link>
     <b-link
       class="btn btn-secondary"
-      to="gallery">Gallery</b-link>
+      to="terms-and-conditions">Terms & Conditions</b-link>
     <b-link
       class="btn btn-secondary"
-      to="games">Games</b-link>
+      to="/register">Sign Up</b-link>
+    <b-link
+      class="btn btn-secondary"
+      to="/login">Log In</b-link>
   </b-button-group>
 </template>
+<script>
+export default {
+
+}
+</script>
+

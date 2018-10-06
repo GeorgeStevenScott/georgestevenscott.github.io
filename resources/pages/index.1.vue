@@ -1,11 +1,12 @@
 <template>
   <section class="container">
     <div>
+      <logo/>
       <h1 class="title">
-        George Scott's
+        KidOAuth
       </h1>
       <h2 class="subtitle">
-        Personal Website
+        Let's make it easy to keep kids safe online
       </h2>
       <main-menu/>
     </div>
@@ -13,28 +14,19 @@
 </template>
 
 <script>
+import Logo from '~/components/Logo.vue'
 import MainMenu from '~/components/MainMenu.vue'
 
 export default {
   components: {
+    Logo,
     MainMenu
-  },
-  head() {
-    return {
-      titleTemplate: '%s | Home',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: 'The home page of my website.'
-        }
-      ]
-    }
   }
 }
 </script>
 
 <style>
+
 .container {
   min-height: 100vh;
   display: flex;
