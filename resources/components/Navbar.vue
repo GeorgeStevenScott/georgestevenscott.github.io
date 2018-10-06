@@ -1,8 +1,8 @@
 <template>
     <b-navbar
       toggleable="md"
-      type="light"
-      variant="light"
+      type="dark"
+      variant="danger"
       fixed>
       <b-container>
       <b-navbar-brand
