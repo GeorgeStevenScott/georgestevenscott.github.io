@@ -6,7 +6,7 @@
       fixed>
       <b-container>
       <b-navbar-brand
-        to="/">KidOAuth</b-navbar-brand>
+        to="/">G-Scott</b-navbar-brand>
 
       <b-navbar-toggle
         target="nav_collapse"/>
@@ -20,36 +20,15 @@
             to="/"
             exact>Home</b-nav-item>
           <b-nav-item
-            to="blog">Blog</b-nav-item>
+            to="about">About</b-nav-item>
           <b-nav-item
-            to="privacy-policy">Privacy Policy</b-nav-item>
+            to="hobbies">Hobbies</b-nav-item>
           <b-nav-item
-            to="terms-and-conditions">Terms & Conditions</b-nav-item>
+            to="gallery">Gallery</b-nav-item>
+          <b-nav-item
+            to="games">Games</b-nav-item>
         </b-navbar-nav>
 
-        <!-- Right aligned nav items -->
-        <b-navbar-nav
-          class="ml-auto">
-
-          <b-nav-item-dropdown
-            v-if="isAuthenticated"
-            right>
-            <!-- Using button-content slot -->
-            <template
-              slot="button-content">
-              <em>{{ loggedInUser.username }}</em>
-            </template>
-            <b-dropdown-item
-              to="/profile">Profile</b-dropdown-item>
-              <hr class="navbar-divider">
-            <b-dropdown-item
-              @click="logout">Logout</b-dropdown-item>
-          </b-nav-item-dropdown>
-          <template v-else>
-            <b-nav-item class="navbar-item" to="/register" right>Register</b-nav-item>
-            <b-nav-item class="navbar-item" to="/login" right>Log In</b-nav-item>
-          </template>
-        </b-navbar-nav>
       </b-collapse>
 
       </b-container>
